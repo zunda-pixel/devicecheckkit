@@ -8,14 +8,14 @@ public struct DeviceCheck<HTTPClient: HTTPClientProtocol & Sendable>: Sendable {
   public var environmet: Environment
   public var teamId: String
   public var p8KeyId: String
-  public var p8PrivateKey: String
+  public var p8PrivateKey: Data
 
   public init(
     httpClient: HTTPClient,
     environmet: Environment,
     teamId: String,
     p8KeyId: String,
-    p8PrivateKey: String
+    p8PrivateKey: Data
   ) {
     self.httpClient = httpClient
     self.environmet = environmet

@@ -15,14 +15,14 @@ let deviceCheck = DeviceCheck(
   environmet: .development,
   teamId: "PU5HXZ4FZ2",
   p8KeyId: "C6K99BZ93U",
-  p8PrivateKey: """
+  p8PrivateKey: Data("""
 -----BEGIN PRIVATE KEY-----
 MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgoM7Jt05epfNvxVEL
 8iOSEZusadXFlw8PMdzHvkGWnrOgCgYIKoZIzj0DAQehRANCAAR3poUdg7RH2yCg
 UN+nF3/VSf6SNGj6CUBezvOV6lpsTn47/Qw1g3DB4IQMcLL2m4TEyzo/XlACRp0J
 idr/RupT
 -----END PRIVATE KEY-----
-"""
+""".utf8)
 )
 
 struct ContentView: View {
