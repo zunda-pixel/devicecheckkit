@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1701D92CB92D68001E6308 /* DeviceCheckKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2E1701D82CB92D68001E6308 /* DeviceCheckKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E1701BB2CB92C6E001E6308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E1701A12CB92C6C001E6308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E1701A82CB92C6C001E6308;
+			remoteInfo = ExampleDeviceCheckApp;
+		};
+		2E1701C52CB92C6E001E6308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E1701A12CB92C6C001E6308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E1701A82CB92C6C001E6308;
+			remoteInfo = ExampleDeviceCheckApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E1701A92CB92C6C001E6308 /* ExampleDeviceCheckApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleDeviceCheckApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1701BA2CB92C6E001E6308 /* ExampleDeviceCheckAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleDeviceCheckAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1701C42CB92C6E001E6308 /* ExampleDeviceCheckAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleDeviceCheckAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2E1701AB2CB92C6C001E6308 /* ExampleDeviceCheckApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExampleDeviceCheckApp;
+			sourceTree = "<group>";
+		};
+		2E1701BD2CB92C6E001E6308 /* ExampleDeviceCheckAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExampleDeviceCheckAppTests;
+			sourceTree = "<group>";
+		};
+		2E1701C72CB92C6E001E6308 /* ExampleDeviceCheckAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExampleDeviceCheckAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1701A62CB92C6C001E6308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1701D92CB92D68001E6308 /* DeviceCheckKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1701B72CB92C6E001E6308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1701C12CB92C6E001E6308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1701A02CB92C6C001E6308 = {
+			isa = PBXGroup;
+			children = (
+				2E1701AB2CB92C6C001E6308 /* ExampleDeviceCheckApp */,
+				2E1701BD2CB92C6E001E6308 /* ExampleDeviceCheckAppTests */,
+				2E1701C72CB92C6E001E6308 /* ExampleDeviceCheckAppUITests */,
+				2E1701AA2CB92C6C001E6308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E1701AA2CB92C6C001E6308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E1701A92CB92C6C001E6308 /* ExampleDeviceCheckApp.app */,
+				2E1701BA2CB92C6E001E6308 /* ExampleDeviceCheckAppTests.xctest */,
+				2E1701C42CB92C6E001E6308 /* ExampleDeviceCheckAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E1701A82CB92C6C001E6308 /* ExampleDeviceCheckApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1701CE2CB92C6E001E6308 /* Build configuration list for PBXNativeTarget "ExampleDeviceCheckApp" */;
+			buildPhases = (
+				2E1701A52CB92C6C001E6308 /* Sources */,
+				2E1701A62CB92C6C001E6308 /* Frameworks */,
+				2E1701A72CB92C6C001E6308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2E1701AB2CB92C6C001E6308 /* ExampleDeviceCheckApp */,
+			);
+			name = ExampleDeviceCheckApp;
+			packageProductDependencies = (
+				2E1701D82CB92D68001E6308 /* DeviceCheckKit */,
+			);
+			productName = ExampleDeviceCheckApp;
+			productReference = 2E1701A92CB92C6C001E6308 /* ExampleDeviceCheckApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E1701B92CB92C6E001E6308 /* ExampleDeviceCheckAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1701D12CB92C6E001E6308 /* Build configuration list for PBXNativeTarget "ExampleDeviceCheckAppTests" */;
+			buildPhases = (
+				2E1701B62CB92C6E001E6308 /* Sources */,
+				2E1701B72CB92C6E001E6308 /* Frameworks */,
+				2E1701B82CB92C6E001E6308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E1701BC2CB92C6E001E6308 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2E1701BD2CB92C6E001E6308 /* ExampleDeviceCheckAppTests */,
+			);
+			name = ExampleDeviceCheckAppTests;
+			packageProductDependencies = (
+			);
+			productName = ExampleDeviceCheckAppTests;
+			productReference = 2E1701BA2CB92C6E001E6308 /* ExampleDeviceCheckAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E1701C32CB92C6E001E6308 /* ExampleDeviceCheckAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1701D42CB92C6E001E6308 /* Build configuration list for PBXNativeTarget "ExampleDeviceCheckAppUITests" */;
+			buildPhases = (
+				2E1701C02CB92C6E001E6308 /* Sources */,
+				2E1701C12CB92C6E001E6308 /* Frameworks */,
+				2E1701C22CB92C6E001E6308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E1701C62CB92C6E001E6308 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2E1701C72CB92C6E001E6308 /* ExampleDeviceCheckAppUITests */,
+			);
+			name = ExampleDeviceCheckAppUITests;
+			packageProductDependencies = (
+			);
+			productName = ExampleDeviceCheckAppUITests;
+			productReference = 2E1701C42CB92C6E001E6308 /* ExampleDeviceCheckAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E1701A12CB92C6C001E6308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2E1701A82CB92C6C001E6308 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2E1701B92CB92C6E001E6308 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2E1701A82CB92C6C001E6308;
+					};
+					2E1701C32CB92C6E001E6308 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2E1701A82CB92C6C001E6308;
+					};
+				};
+			};
+			buildConfigurationList = 2E1701A42CB92C6C001E6308 /* Build configuration list for PBXProject "ExampleDeviceCheckApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E1701A02CB92C6C001E6308;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2E1701D72CB92D68001E6308 /* XCLocalSwiftPackageReference "../../../devicecheck-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2E1701AA2CB92C6C001E6308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E1701A82CB92C6C001E6308 /* ExampleDeviceCheckApp */,
+				2E1701B92CB92C6E001E6308 /* ExampleDeviceCheckAppTests */,
+				2E1701C32CB92C6E001E6308 /* ExampleDeviceCheckAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E1701A72CB92C6C001E6308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1701B82CB92C6E001E6308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1701C22CB92C6E001E6308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E1701A52CB92C6C001E6308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1701B62CB92C6E001E6308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E1701C02CB92C6E001E6308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E1701BC2CB92C6E001E6308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E1701A82CB92C6C001E6308 /* ExampleDeviceCheckApp */;
+			targetProxy = 2E1701BB2CB92C6E001E6308 /* PBXContainerItemProxy */;
+		};
+		2E1701C62CB92C6E001E6308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E1701A82CB92C6C001E6308 /* ExampleDeviceCheckApp */;
+			targetProxy = 2E1701C52CB92C6E001E6308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E1701CC2CB92C6E001E6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E1701CD2CB92C6E001E6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2E1701CF2CB92C6E001E6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExampleDeviceCheckApp/ExampleDeviceCheckApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExampleDeviceCheckApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunda.ExampleDeviceCheckApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2E1701D02CB92C6E001E6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExampleDeviceCheckApp/ExampleDeviceCheckApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExampleDeviceCheckApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PU5HXZ4FZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunda.ExampleDeviceCheckApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2E1701D22CB92C6E001E6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunda.ExampleDeviceCheckAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleDeviceCheckApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExampleDeviceCheckApp";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		2E1701D32CB92C6E001E6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunda.ExampleDeviceCheckAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleDeviceCheckApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExampleDeviceCheckApp";
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		2E1701D52CB92C6E001E6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunda.ExampleDeviceCheckAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ExampleDeviceCheckApp;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		2E1701D62CB92C6E001E6308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunda.ExampleDeviceCheckAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ExampleDeviceCheckApp;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E1701A42CB92C6C001E6308 /* Build configuration list for PBXProject "ExampleDeviceCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1701CC2CB92C6E001E6308 /* Debug */,
+				2E1701CD2CB92C6E001E6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E1701CE2CB92C6E001E6308 /* Build configuration list for PBXNativeTarget "ExampleDeviceCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1701CF2CB92C6E001E6308 /* Debug */,
+				2E1701D02CB92C6E001E6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E1701D12CB92C6E001E6308 /* Build configuration list for PBXNativeTarget "ExampleDeviceCheckAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1701D22CB92C6E001E6308 /* Debug */,
+				2E1701D32CB92C6E001E6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E1701D42CB92C6E001E6308 /* Build configuration list for PBXNativeTarget "ExampleDeviceCheckAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1701D52CB92C6E001E6308 /* Debug */,
+				2E1701D62CB92C6E001E6308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2E1701D72CB92D68001E6308 /* XCLocalSwiftPackageReference "../../../devicecheck-swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../devicecheck-swift";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E1701D82CB92D68001E6308 /* DeviceCheckKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeviceCheckKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2E1701A12CB92C6C001E6308 /* Project object */;
+}
