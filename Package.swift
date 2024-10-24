@@ -7,7 +7,11 @@ let package = Package(
   name: "devicecheckkit",
   platforms: [
     .macOS(.v13),
-    .iOS(.v15),
+    .macCatalyst(.v16),
+    .iOS(.v16),
+    .tvOS(.v16),
+    .watchOS(.v9),
+    .visionOS(.v1),
   ],
   products: [
     .library(
