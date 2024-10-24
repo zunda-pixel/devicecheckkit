@@ -1,5 +1,8 @@
 ## DeviceCheckKit(Server Side)
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fzunda-pixel%2Fdevicecheckkit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/zunda-pixel/devicecheckkit)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fzunda-pixel%2Fdevicecheckkit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/zunda-pixel/devicecheckkit)
+
 ```swift
 let deviceCheck = DeviceCheck(
   httpClient: .urlSession(.shared),
