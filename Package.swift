@@ -32,6 +32,6 @@ let package = Package(
         .product(name: "HTTPTypes", package: "swift-http-types"),
         .product(name: "HTTPClient", package: "http-client"),
       ]
-    ),
+    )
   ]
 )
