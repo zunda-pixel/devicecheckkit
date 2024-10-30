@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct ExampleDeviceCheckAppApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
