@@ -15,9 +15,7 @@ public struct TwoBits: Decodable, Sendable, Hashable {
     let container = try decoder.container(keyedBy: CodingKeys.self)
     self.bit0 = try container.decode(Bool.self, forKey: .bit0)
     self.bit1 = try container.decode(Bool.self, forKey: .bit1)
-    let stringLastUpdateTime = try container.decode(String.self, forKey: .lastUpdateTime)
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "yyyy-MM"
-    self.lastUpdateTime = dateFormatter.date(from: stringLastUpdateTime)!
+    let lastUpdateTime = try container.decode(String.self, forKey: .lastUpdateTime)
+    self.lastUpdateTime = try Date(lastUpdateTime, strategy: .iso8601.year().month())
   }
 }
