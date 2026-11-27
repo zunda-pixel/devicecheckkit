@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/vapor/jwt-kit",
       "state" : {
-        "revision" : "ae8f53decd49e3272d56714556362351d8b02807",
-        "version" : "5.9.0"
+        "revision" : "9b909ef1c3fc80259f5e41a8eea8e740ada64218",
+        "version" : "5.9.1"
       }
     },
     {
